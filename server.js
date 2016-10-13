@@ -21,6 +21,7 @@ var articles={
                     This is the content of article one. This is the first page added to this console. This is the content of article one. This is the first page added to this console. This is the content of article one.
                 </p> `
         },
+        //names have to be same as in the url here articleone cannot be articleOne 
         'articletwo' :{
             title:'ArticleTwo |Remya Ramachandran',
             heading:'Article Two',
