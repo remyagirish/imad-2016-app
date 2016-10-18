@@ -37,8 +37,12 @@ body {
 
 	color: #ffffff;
 }
-#image{
-    float:left;
+.right img {
+    float : left;
+    margin-left: 5px;
+	
+	padding-top: 5px;
+	background-color:#888888;
 }
 
 
