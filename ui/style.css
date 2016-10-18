@@ -39,10 +39,12 @@ body {
 }
 #image {
     float : left;
+    position:relative;
     margin-left: 5px;
 	
 	padding-top: 5px;
 	background-color:#888888;
+	
 }
 
 
