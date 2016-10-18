@@ -37,6 +37,9 @@ body {
 
 	color: #ffffff;
 }
+#image{
+    float:left;
+}
 
 
 #email{
