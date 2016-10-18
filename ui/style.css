@@ -104,7 +104,10 @@ li {
 	margin-bottom: 10px;
 }
 
-
+.left img{
+    width:50%;
+    height:500px;
+}
 
 .right {
 	position: relative;
