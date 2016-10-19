@@ -37,15 +37,6 @@ body {
 
 	color: #ffffff;
 }
-#image {
-    float : left;
-    position:relative;
-    margin-left: 5px;
-	
-	padding-top: 5px;
-	background-color:#888888;
-	
-}
 
 
 #email{
@@ -104,7 +95,7 @@ li {
 	margin-bottom: 10px;
 }
 
-.left img{
+.center img{
     width:50%;
     height:500px;
 }
