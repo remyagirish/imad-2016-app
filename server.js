@@ -89,7 +89,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/black.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'black.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
 
