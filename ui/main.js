@@ -16,5 +16,5 @@ button.onclick = function() {
     //img.onclick=function(){
    //     img.style.mariginLeft='100px';
       //  var interval=setInterval(movRight,50);
-    }
+    //}
  };
