@@ -11,4 +11,9 @@ button.onclick = function() {
         
         
     };
+    
+    var img =document.getElementById("image");
+    img.onclick=function(){
+        var interval=setInterval(movRight,50);
+    }
  };
