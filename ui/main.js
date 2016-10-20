@@ -11,9 +11,10 @@ button.onclick = function() {
         
         
     };
-    
+    //Move the image
     var img =document.getElementById("image");
     img.onclick=function(){
-        var interval=setInterval(movRight,50);
+        img.style.mariginLeft='100px';
+      //  var interval=setInterval(movRight,50);
     }
  };
