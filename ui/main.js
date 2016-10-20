@@ -15,10 +15,10 @@
                  if(request.readyState===XMLHttpRequest.Done)
                  {
                      //Take some action
-                     if(request.readyState===200)
+                     if(request.satus===200)
                      {
                         var counter= request.responseText;
-                        var span = document.getElementById("count");
+                        var span = document.getElementById('count');
                         span.innerHTML = counter.toString();
                      }
                  }
