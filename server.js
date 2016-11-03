@@ -77,7 +77,7 @@ app.get('/', function (req, res) {
 });
 var pool = new Pool(config);
 
-app.get9'/test-db',function(req,res){
+app.get('/test-db',function(req,res){
     //made a select request
     //return a response with the results
     pool.query('select * from test',function(err,result){
@@ -87,7 +87,7 @@ app.get9'/test-db',function(req,res){
             res.send(JSON.stringify(result));
         }
     });
-};
+});
 
 var counter =0;
 app.get('/counter', function(req,res){
