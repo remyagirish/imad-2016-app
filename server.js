@@ -7,7 +7,7 @@ var config={
     database:'remyagirish',
     host:'db.imad.hasura-app.io',
     port:'5432',
-    password:process.eny.DB_PASSWORD
+    password:process.env.DB_PASSWORD
     
 };
 var app = express();
