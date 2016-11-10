@@ -99,7 +99,7 @@ app.get('/counter', function(req,res){
 app.get('/articles/:articleName', function(req,res){
     //articleName==articleone
     //articles[articleName]=={}content object for article one
-    var articleName;
+    //var articleName;
     pool.query("select * from article where title=" + req.pramas.articleName,function(err,result){
         if(err){
             res.status(500).send(err.toString());
@@ -114,9 +114,9 @@ app.get('/articles/:articleName', function(req,res){
         });
     });
   
-//app.get('/articletwo', function(req,res){
-//   res.sendFile(path.join(__dirname, 'ui', 'articletwo.html'));
-//});
+app.get('/articletwo', function(req,res){
+   res.sendFile(path.join(__dirname, 'ui', 'articletwo.html'));
+});
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
