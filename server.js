@@ -99,7 +99,7 @@ app.get('/counter', function(req,res){
 app.get('/articles/:articleName', function(req,res){
     //articleName==articleone
     //articles[articleName]=={}content object for article one
-    pool.query("select * from article where title=" + req.pramas.articleName ,function(err,result){
+    pool.query("select * from article where title=" + req.pramas.articleName,function(err,result){
         if(err){
             res.status(500).send(err.toString());
             } else {
