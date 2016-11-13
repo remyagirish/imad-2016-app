@@ -55,7 +55,7 @@ app.get('/', function (req, res) {
 var pool = new Pool(config);
 
 function hash(input, salt){
-    //How do we create hash
+    //How do we create a  hash?
     var hashed=crypto.pbkdf2Sync(input, salt, 1000, 512, 'sha512');
     return hashed.toString('hex');
     
