@@ -13,31 +13,6 @@ var config={
 var app = express();
 app.use(morgan('combined'));
 
-var articles={
-        'articleone' :{
-        title:'ArticleOne |Remya Ramachandran',
-        heading:'Article On Html',
-        date:'Oct 12,2016',
-        content:`
-        <p>Hypertext Markup Language HTML</p>
-        <p>HTML was created by Berners-Lee in late 1991 but "HTML 2.0" was the first standard HTML specification which was published in 1995. HTML 4.01 was a major version of HTML and it was published in late 1999.</p>`
-        },
-        //names have to be same as in the url here articleone cannot be articleOne 
-        'articletwo' :{
-            title:'ArticleTwo |Remya Ramachandran',
-            heading:'Article on CSS',
-            date:'Oct 13,2016',
-            content:`
-            <p> Hello CSS.Cascading Style Sheets (CSS) </p>`
-            },
-        'articlethree' :{
-            title:'ArticleThree |Remya Ramachandran',
-            heading:'Article On Javascript',
-            date:'Oct 14,2016',
-            content:`<p>JavaScript ("JS" for short) is a full-fledged dynamic programming language that, when applied to an HTML document, can provide dynamic interactivity on websites.</p>`
-            }
-        
-    };
 function createTemplate(data){
     var title=data.title;
     var date=data.date;
