@@ -14,7 +14,7 @@ var config={
 };
 var app = express();
 app.use(morgan('combined'));
-app.use(bodyParser.json());
+
 function createTemplate(data){
     var title=data.title;
     var date=data.date;
@@ -70,22 +70,7 @@ app.get('/hash/:input',function(req,res){
    res.send(hashedString);
   });
   
-//app.get('/create-user',function(req,res){
-   //username,password
-//   var username=req.body.username;
-  // var password=req.body.password;
-   //var salt=crypto.getRandomBytes(128).toString('hex');
-   //var dbString=has(password,salt);
-   //pool.query('insert INTO "user"(username,password) VALUES ($1,$2)',[username,dbString],function(err,result){
-     //  if(err){
-       //    res.status(500).send(err.toString());
-       //}else{
-         //  res.send('user successfully created:'+username);
-       //}
-   //});
-//});
-  
-  
+
 app.get('/test-db',function(req,res){
     //made a select request
     //return a response with the results
