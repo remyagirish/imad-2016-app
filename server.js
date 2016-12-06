@@ -54,7 +54,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-
+app.get('/profile',function(req,res){
+    //Profile Page
+    res.sendFile(path.join(_dirname,'ui','profile.html'));
+});
 
 var pool = new Pool(config);
 
