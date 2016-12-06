@@ -102,9 +102,7 @@ li {
 
 picture{
     
-	position: relative;
-    margin-top: 100px;
-    border-radius:50%;
+   width:30%;
 }
 
 .right {
