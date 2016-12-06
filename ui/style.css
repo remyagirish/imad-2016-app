@@ -99,8 +99,11 @@ li {
     width:5%;
     height:100px;
 }
+
 picture{
     
+	position: relative;
+    margin-top: 100px;
     border-radius:50%;
 }
 
